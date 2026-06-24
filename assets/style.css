@@ -141,9 +141,16 @@ h2 + p, h3 + p { margin-top: 8px; }
   border-radius: 8px;
 }
 .section.alt .members li { background: #fff; }
+.m-line { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px; }
 .m-name { font-weight: 600; color: var(--ink); }
 a.m-name { text-decoration: none; transition: color .12s ease; }
 a.m-name:hover { color: var(--accent); text-decoration: underline; }
+.m-role {
+  display: inline-block;
+  font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: #fff; background: var(--brand);
+  padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+}
 .m-aff { font-size: 14px; color: var(--muted); }
 
 /* ---------- Checklist & timeline ---------- */
